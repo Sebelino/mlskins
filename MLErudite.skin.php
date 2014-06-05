@@ -1,15 +1,15 @@
 <?php
 /**
- * Erudite skin
+ * ML Erudite skin
  *
  * @file
  * @ingroup Skins
  */
 
-class SkinErudite extends SkinTemplate {
+class SkinMLErudite extends SkinTemplate {
 
-	var $skinname = 'erudite', $stylename = 'erudite',
-		$template = 'EruditeTemplate', $useHeadElement = true;
+	var $skinname = 'mlerudite', $stylename = 'mlerudite',
+		$template = 'MLEruditeTemplate', $useHeadElement = true;
 
 	public function initPage( OutputPage $out ) {
 		parent::initPage( $out );
@@ -27,11 +27,11 @@ class SkinErudite extends SkinTemplate {
 	 */
 	function setupSkinUserCss( OutputPage $out ) {
 		parent::setupSkinUserCss( $out );
-		$out->addModuleStyles( 'skins.erudite' );
+		$out->addModuleStyles( 'skins.mlerudite' );
 	}
 }
 
-class EruditeTemplate extends BaseTemplate {
+class MLEruditeTemplate extends BaseTemplate {
 	/**
 	 * Like msgWiki() but it ensures edit section links are never shown.
 	 *
@@ -62,8 +62,8 @@ class EruditeTemplate extends BaseTemplate {
 		?>
 
 		<div class="mw-jump">
-			<a href="#bodyContent"><?php $this->msg( 'erudite-skiptocontent' ) ?></a><?php $this->msg( 'comma-separator' ) ?>
-			<a href="#search"><?php $this->msg( 'erudite-skiptosearch' ) ?></a>
+			<a href="#bodyContent"><?php $this->msg( 'mlerudite-skiptocontent' ) ?></a><?php $this->msg( 'comma-separator' ) ?>
+			<a href="#search"><?php $this->msg( 'mlerudite-skiptosearch' ) ?></a>
 		</div>
 
 		<div id="top-wrap" role="banner">
@@ -192,7 +192,7 @@ class EruditeTemplate extends BaseTemplate {
 			<?php } ?>
 
 			<li class="widget">
-				<?php echo $this->msgWikiNoEdit( 'erudite-extracontent-column1' ); ?>
+				<?php echo $this->msgWikiNoEdit( 'mlerudite-extracontent-column1' ); ?>
 			</li>
 
 			</ul>
@@ -238,7 +238,7 @@ class EruditeTemplate extends BaseTemplate {
 			?>
 
 			<li class="widget">
-				<?php echo $this->msgWikiNoEdit( 'erudite-extracontent-column2' ); ?>
+				<?php echo $this->msgWikiNoEdit( 'mlerudite-extracontent-column2' ); ?>
 			</li>
 
 			</ul>
@@ -252,7 +252,7 @@ class EruditeTemplate extends BaseTemplate {
 			</li>
 
 			<li class="widget">
-				<?php echo $this->msgWikiNoEdit( 'erudite-extracontent-column3' ); ?>
+				<?php echo $this->msgWikiNoEdit( 'mlerudite-extracontent-column3' ); ?>
 			</li>
 
 			</ul>
