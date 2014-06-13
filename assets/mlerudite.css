@@ -223,6 +223,10 @@ td > h6:first-child {
 	margin: 0em;
 }
 
+#footer ul { /* Gör av med listbulletsen. SEBELINO */
+	list-style-type: none;
+}
+
 .footer .widget li {
 	font-size: 0.875em;
 }
