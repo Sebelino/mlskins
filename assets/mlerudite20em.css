@@ -1,5 +1,14 @@
 /* Disable text justification (user preference) */
 #bodyContent {
 	text-align: left !important;
-    background-color: #8F8;
+    background-color: white;
+}
+
+.jxgbox {
+    position:relative;
+    width:95% !important;
+    height:0;
+    padding-bottom:95% !important;
+    margin-left:auto;
+    margin-right:auto;
 }
