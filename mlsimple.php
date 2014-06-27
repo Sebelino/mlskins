@@ -1,6 +1,6 @@
 <?php
 /**
- * ML Erudite MW skin
+ * ML Simple MW skin
  *
  * @file
  * @ingroup Skins
@@ -15,18 +15,18 @@ if( !defined( 'MEDIAWIKI' ) ) die( 'This is an extension to the MediaWiki packag
 
 $wgExtensionCredits['skin'][] = array(
 	'path' => __FILE__,
-	'name' => 'MLErudite',
-	'url' => 'https://www.mediawiki.org/wiki/Skin:MLErudite',
+	'name' => 'MLSimple',
+	'url' => 'https://www.mediawiki.org/wiki/Skin:MLSimple',
 	'author' => array( 'Nick White', 'Matt Wiebe', 'Colin Andrew Ferm', 'Sebastian Olsson' ),
 	'version' => '1.8',
-	'descriptionmsg' => 'mlerudite-desc',
+	'descriptionmsg' => 'mlsimple-desc',
 );
 
-$wgValidSkinNames['mlerudite'] = 'MLErudite';
-$wgAutoloadClasses['SkinMLErudite'] = dirname(__FILE__) . '/MLErudite.skin.php';
-$wgExtensionMessagesFiles['MLErudite'] = dirname(__FILE__) . '/MLErudite.i18n.php';
+$wgValidSkinNames['mlsimple'] = 'MLSimple';
+$wgAutoloadClasses['SkinMLSimple'] = dirname(__FILE__) . '/MLSimple.skin.php';
+$wgExtensionMessagesFiles['MLSimple'] = dirname(__FILE__) . '/MLSimple.i18n.php';
 
-$wgResourceModules['skins.mlerudite'] = array(
+$wgResourceModules['skins.mlsimple'] = array(
 	'styles' => array(
 		'mlskins/assets/cssreset.css' => array( 'media' => 'screen' ),
 		'mlskins/assets/ml.css' => array( 'media' => 'screen' ),
