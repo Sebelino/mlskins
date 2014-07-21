@@ -35,6 +35,8 @@ $wgResourceModules['skins.mlsimple'] = array(
 		'mlskins/assets/ml55em.css' => array( 'media' => 'screen and (max-width: 55em)' ),
 		'mlskins/assets/ml40em.css' => array( 'media' => 'screen and (max-width: 40em)' ),
 		'mlskins/assets/ml20em.css' => array( 'media' => 'screen and (max-width: 20em)' ),
+		'mlskins/assets/mlsimple.css' => array( 'media' => 'screen' ),
+
 		'mlskins/assets/print.css' => array( 'media' => 'print' ),
 	),
 	'remoteBasePath' => &$GLOBALS['wgStylePath'],
