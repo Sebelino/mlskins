@@ -26,6 +26,8 @@
 	border-color: #333;
 	border-color: rgba(50, 50, 50, 0.7);
 	border-width: thin;
+	text-align:right;
+	
 }
 
 /* Typography base */
@@ -387,16 +389,18 @@ a#menubutton,
 /* Meta (edit links etc.) */
 #nav-meta {
 	float: right;
-	margin: 1.5em 3.75em 0 1em;
-	padding-left: 1em;
+	margin: 0.1em 4.5em 0 1em;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
 	border-left: thin solid #aaaaaa;
 }
 
 #nav-meta span {
-	display: block;
+	display: inline-block;
 	font-size: 0.75em;
 	font-style: italic;
-	padding: 0.4em 0;
+	padding: 0.4em 0.2em;
+	
 }
 
 #nav-meta .meta-sep {
@@ -648,3 +652,7 @@ body.action-edit #toolbar,
 body.action-edit #wpTextbox1 {
 	clear: none;
 }
+.widgetlink{
+float:right;
+}
+
