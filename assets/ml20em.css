@@ -1,7 +1,8 @@
 /* Disable text justification (user preference) */
 #bodyContent {
 	text-align: left !important;
-    background-color: white;
+    background-color: #F0F0FF;
+    font-size: 10px;
 }
 
 .jxgbox {
